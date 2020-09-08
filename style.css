@@ -107,10 +107,12 @@
 	margin-bottom: 10px;
 	position: relative;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .section-title p {
 	margin-top: 10px;
+	text-align: center;
 }
 
 .section-title .title-line {
@@ -164,18 +166,19 @@
 
 #header-area,
 #header-area a {
-	color: #fff;
+    color: #ffffff;
 }
-
 #header-top {
-	background-color: #1e2228;
+	background-color: #e0b700;
 	padding: 8px 0;
+	color: #000;
 }
 
 #header-top i {
-	color: #ffd000;
+	color: #fff;
 	font-size: 15px;
 	margin-right: 2px;
+
 }
 
 #header-area .header-social-icons a i.fa {
@@ -190,6 +193,7 @@
 #header-area .mainmenu ul li.active a,
 #header-area .mainmenu ul li:hover a {
 	color: #ffd000;
+	cursor: pointer;
 }
 
 header.fixTotop #header-top {
@@ -201,16 +205,19 @@ header.fixTotop #header-top {
 /*== Header Bottom CSS Start ==*/
 
 #header-bottom {
-	background-color: rgba(0, 0, 0, 0.3);
-	padding: 15px 0;
 	-webkit-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	background: #010101;
+	color: #ffffff ! important;
 }
 
+
 header.fixTotop #header-bottom {
-	background-color: rgba(0, 0, 0, 1);
+	background-color: black;
 	-webkit-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
+	color: #fff;
 }
 
 .logo {
@@ -675,8 +682,8 @@ a.slicknav_btn {
 /*== Fun Fact Area CSS Start ==*/
 
 #funfact-area {
-	background-image: url(assets/img/funfact-bg.jpg);
-	background-size: cover;
+	background-image: url(assets/img/719AiAwixsL._SL1500_957x700.jpg);
+	background-size: contain;
 	background-position: center center;
 	color: #fff;
 }
@@ -1314,7 +1321,7 @@ a.slicknav_btn {
 }
 
 .footer-widget-area {
-	background-color: #1e2228;
+	background-color: #000000;
 	padding: 60px 0;
 }
 
@@ -1352,6 +1359,7 @@ a.slicknav_btn {
 
 .newsletter-area {
 	margin-top: 20px;
+	background: #ffffff;
 }
 
 .newsletter-area form {
@@ -1420,7 +1428,7 @@ a.slicknav_btn {
 }
 
 .recent-post li {
-	background-color: #000;
+	background-color: #1e2228;
 	font-weight: 600;
 	letter-spacing: 1.3px;
 	margin-bottom: 15px;
@@ -1560,6 +1568,9 @@ body,
 .slideshowcontent h1 {
 	color: #ffd000;
 	margin-bottom: 20px;
+}
+.slideshowcontent p{
+	text-align: center;
 }
 
 #slideslow-bg div.book-ur-car,
@@ -2087,12 +2098,14 @@ body,
 .wchoose-content h4 {
 	font-size: 20px;
 	text-transform: uppercase;
+	color: black;
 }
 
 .wchoose-content p {
 	color: #555;
-	font-size: 13px;
+	font-size: 16px;
 	margin: 40px 0;
+	text-align: justify;
 }
 
 .single-choose-item {
@@ -2124,7 +2137,7 @@ body,
 /*== Our Cars CSS ==*/
 
 .ourcar-tab-menu .nav {
-	background-color: #29b3e9;
+	background-color: yellow;
 	border: none;
 	display: block;
 	-ms-flex-wrap: inherit;
@@ -2234,6 +2247,9 @@ body,
 
 #page-title-area .section-title {
 	margin-bottom: 0;
+}
+#page-title-area .section-title p{
+	text-align: center;
 }
 
 /*== Car List CSS ==*/
@@ -2609,6 +2625,11 @@ body,
 	font-size: 20px;
 	position: inherit;
 }
+.contact-form, label{
+	text-align: center;
+	font-weight: bold;
+
+}
 
 .contact-form input,
 .review-area input,
@@ -2620,6 +2641,21 @@ body,
 	padding: 8px 15px;
 	resize: none;
 	width: 100%;
+}
+#para{
+	font-weight: bold;
+	text-align: center;
+	color: #ffc107;
+	padding-top: ;
+}
+.jumbotron h5{
+	text-align: center;
+	font-weight: bold;
+	color: auto;
+}
+.jumbotron, p{
+	font-weight: normal;
+	text-align: justify;
 }
 
 .contact-form input:focus,
@@ -3256,11 +3292,21 @@ body,
 	align-content: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 35px;
+	color: #ffffff;
+}
+.btn-1:hover{
+	color: yellow ;
+    background: blue ;
+    display: inline-table ;
 }
 .gallery{
 	height: 150px;
-	width: 100%;
+	width: 255px;
 
+}
+#me{
+	height: 150px;
+	width: 100;
 }
 .col-lg-3 col-md-4 col-6, a{
 	
@@ -3272,3 +3318,62 @@ body,
 	color: yellow;
 	cursor: alias;
 }
+.button{
+	background: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.contact_form{
+	padding: 30px;
+}
+#home-slider-area{
+	background: #000;
+}
+.mainmenu{
+	padding: 9px;
+}
+.btn{
+			alignment: center;
+			background: #e0b700;
+			color: white;
+			font-weight: bold;
+}
+.padd{
+	padding: 15px;
+}
+.padd,label,input{
+	text-align: center;
+
+}
+.col-lg-6, .form-group{
+	padding: 12px;
+}
+#button{
+	background: #000000;
+	color: #ffffff;
+	border-radius: 100px;
+}
+#btn{
+	background: yellow;
+	color: #000;
+	font-weight: bold;
+	border-radius: 100px;
+}
+#btn:hover{
+	background: #0e1ede;
+	color: yellow;
+	cursor: pointer;
+}
+.text{
+	color: red;
+	font-size: 15px;

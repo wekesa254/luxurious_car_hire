@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--=== Favicon ===-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/logo.jpg" type="image/x-icon" />
 
     <title>LUXURIOUS CAR HIRE</title>
 
@@ -37,7 +37,10 @@
         .form-group, h1,h2,h3,h4,h5,label{
             color: white;
             align-content: center;
-            <>
+            
+        }
+        p{
+            text-align: center;
         }
     </style>
 
@@ -54,7 +57,7 @@
 <div class="preloader">
     <div class="preloader-spinner">
         <div class="loader-content">
-            <img src="" alt="JSOFT">
+            <img src="assets/img/preloader.gif" alt="JSOFT">
         </div>
     </div>
 </div>
@@ -74,21 +77,17 @@
 
                 <!--== Single HeaderTop Start ==-->
                 <div class="col-lg-3 text-center">
-                    <i class="fa fa-mobile"></i> +1 800 345 678
+                    <i class="fa fa-mobile"></i> 0203 011 5099
                 </div>
                 <!--== Single HeaderTop End ==-->
 
                 <!--== Single HeaderTop Start ==-->
-                <div class="col-lg-3 text-center">
-                    <i class="fa fa-clock-o"></i> Mon-Fri 09.00 - 17.00
-                </div>
+                
                 <!--== Single HeaderTop End ==-->
 
                 <!--== Social Icons Start ==-->
                 <div class="col-lg-3 text-right">
                     <div class="header-social-icons">
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-linkedin"></i></a>
                     </div>
@@ -106,7 +105,7 @@
                 <!--== Logo Start ==-->
                 <div class="col-lg-4">
                     <a href="index3.html" class="logo">
-                        <img src="assets/img/" alt="JSOFT">
+                        <img src="assets/img/logo.jpg" alt="JSOFT">
                     </a>
                 </div>
                 <!--== Logo End ==-->
@@ -115,12 +114,7 @@
                 <div class="col-lg-8 d-none d-xl-block">
                     <nav class="mainmenu alignright" >
                         <ul>
-                            <li><a href="#">Home</a>
-                                <ul>
-                                    <li><a href="index.html">Home 1</a></li>
-                                    <li><a href="index2.html">Home 2</a></li>
-                                    <li><a href="index3.html">Home 3</a></li>
-                                </ul>
+                            <li><a href="index.html">Home</a>
                             </li>
 
 
@@ -133,12 +127,11 @@
                             <li class="active"><a href="#">QUOTE</a></li>
                             <li><a href="events/wedding.html">Services</a>
                                 <ul>
-                                    <li><a href="package.html">WEDDING</a></li>
-                                    <li><a href="driver.html">ADVENTURE</a></li>
-                                    <li><a href="faq.html">FUNERAL</a></li>
-                                    <li><a href="gallery.html">PARTY</a></li>
-                                    <li><a href="help-desk.html">TRAVELLING</a></li>
-                                    <li><a href="login.html">CONCERT</a></li>
+                                    <li><a href="events/wedding.html">WEDDING</a></li>
+                                    <li><a href="events/wedding.html#sport_cars">ADVENTURE</a></li>
+                                    <li><a href="events/wedding.html#funeral">FUNERAL</a></li>
+                                    <li><a href="events/wedding.html#party">PARTY</a></li>
+                                    <li><a href="events/wedding.html#travel">TRAVELLING</a></li>
                                 </ul>
                             </li>
                             <li><a href="about.html">ABOUT</a></li>
@@ -155,7 +148,7 @@
 <!--== Header Area End ==-->
 
 <!--== Slider Area Start ==-->
-<section id="home-slider-area">
+<section id="home-slider-area" >
     <div class="home-slider-item slider-bg-1 overlay">
         <div class="container">
             <div class="row">
@@ -206,79 +199,92 @@
         <div class="row">
 
             <div class="col-md-12">
-                <form class="form-group" style="background-color: black;">
+                <form method="POST" action="get_quote.php" class="form-group contact_form" style="background-color: black;">
 
                     <h2 ALIGN="center">CONTACT INFORMATION</h2><br/><br/>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <label>TITLE</label>
-                            <input type="text" name="title" class="form-control">
+                    <div class="container padd">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>TITLE</label>
+                                <input type="text" name="title" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label>FIRST NAME</label>
+                                <input type="text" name="fname" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label>LAST NAME</label>
+                                <input type="text" name="lname" class="form-control">
+                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <label>FIRST NAME</label>
-                            <input type="text" name="title" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <label>LAST NAME</label>
-                            <input type="text" name="title" class="form-control">
-                         </div>
+    
                     </div>
-
-                    <div class="row">
-                        <div class="col-md-4">
-                            <label>EMAIL ADDRESS</label>
-                            <input type="email" name="email" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <label>ADRESS 2</label>
-                            <input type="email" name="address_1" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <label>ADRESS 2</label>
-                            <input type="email" name="address_2" class="form-control">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-4">
-                            <label>MOBILE PHONE NUMBER</label>
-                            <input type="text" name="contact" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <label>HOME PHONE NUMBER</label>
-                            <input type="text" name="home" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <label>WORK PHONE NUMBER</label>
-                            <input type="text" name="telephone" class="form-control">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-4">
-
-                        </div>
-                        <div class="col-md-4">
-                            <div class="row">
-                                <div class="col-md-6"> <label><h4 align="center">PREFERRED CONTACT</h4></label>
-                                    <select type="text" name="home" class="form-control">
-                                        <option value="MOBILE PHONE">MOBILE PHONE</option>
-                                        <option value="HOME PHONE">HOME PHONE</option>
-                                        <option value="WORK PHONE">WORK PHONE</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6"> <label><h4 align="center">BEST CONTACT TIME</h4></label>
-                                    <select type="text" name="home" class="form-control">
-                                        
-                                        <option value="BTWN 09:00-1700">BTWN 09:00-17:00</option>
-                                        <option value="IMMEDIATELY">IMMEDIATELY</option>
-                                    </select>
-                                </div>
+                    
+                    <div class="container padd">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>EMAIL ADDRESS</label>
+                                <input type="email" name="mail" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label>ADRESS 1</label>
+                                <input type="text" name="address_1" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label>ADRESS 2</label>
+                                <input type="text" name="address_2" class="form-control">
                             </div>
                         </div>
-                        <div class="col-md-4"></div>
-                    </div><br/><br/>
-                    <h2 align="center">BOOKING INFORMATION</h2>
+    
+                    </div>
+                    
+                    <div class="container padd">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>MOBILE PHONE NUMBER</label>
+                                <input type="text" name="contact" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label>HOME PHONE NUMBER</label>
+                                <input type="text" name="home" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label>WORK PHONE NUMBER</label>
+                                <input type="text" name="telephone" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="container padd">
+                        <div class="row">
+                            <div class="col-md-2">
+    
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-6"> <label><h4 align="center">PREFERRED CONTACT</h4></label>
+                                        <select type="text" name="pcontact" class="form-control">
+                                            <option value="MOBILE PHONE">MOBILE PHONE</option>
+                                            <option value="HOME PHONE">HOME PHONE</option>
+                                            <option value="WORK PHONE">WORK PHONE</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6"> <label><h4 align="center">BEST CONTACT TIME</h4></label>
+                                        <select type="text" name="contact_time" class="form-control">
+                                            
+                                            <option value="BTWN 09:00-1700">BTWN 09:00-17:00</option>
+                                            <option value="IMMEDIATELY">IMMEDIATELY</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+    
+                    </div>
+                    
+                    <div class="container padd">
+                        <h2 align="center">BOOKING INFORMATION</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <label>HIRE DATE</label>
@@ -286,129 +292,176 @@
                         </div>
                         <div class="col-md-3">
                             <label>PICK UP LOCATION</label>
-                            <input type="text" name="location" class="form-control">
+                            <input type="text" name="pick_up" class="form-control">
                         </div>
-                        <div class="col-md-3">
-                            <label>WORK PHONE NUMBER</label>
-                            <input type="text" name="telephone" class="form-control">
-                        </div>
+                        
                         <div class="col-md-3">
                             <label>DROP OFF LOCATION</label>
                             <input type="text" name="drop_off" class="form-control">
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-3">
-                            <label>REASON FOR HIRE</label>
-                            <input type="text" name="reason" class="form-control">
-                        </div>
-                        <div class="col-md-3">
-                            <label>IS IT A SURPRISE?</label>
-                            <select type="text" name="ans" class="form-control">
-                                <option value="">--SELECT--</option>
-                                <option value="YES">YES</option>
-                                <option value="NO">NO</option>
-                            </select>
-                        </div>
-                        <div class="col-md-3">
-                            <label>ARE YOU LOOKING TO BOOK TODAY?</label>
-                            <select type="text" name="answer" class="form-control">
-                                <option value="">--SELECT--</option>
-                                <option value="YES">YES</option>
-                                <option value="NO">NO</option>
-                            </select>
-                        </div>
-                        <div class="col-md-3">
-                            <label>SINGLE OR RETURN?</label>
-                            <select type="text" name="ans" class="form-control">
-                                <option value="">--SELECT--</option>
-                                <option value="SINGLE">SINGLE</option>
-                                <option value="RETURN">RETURN</option>
-                            </select>
+                            <label>NUMBER OF PASSENGERS</label>
+                            <input type="text" name="passengers" class="form-control">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <label>HIRE DATE</label>
-                            <input type="date" name="hdate" class="form-control">
-                        </div>
-                        <div class="col-md-3">
-                            <label>PICK UP LOCATION</label>
-                            <input type="text" name="location" class="form-control">
-                        </div>
-                        <div class="col-md-3">
-                            <label>WORK PHONE NUMBER</label>
-                            <input type="text" name="telephone" class="form-control">
-                        </div>
-                        <div class="col-md-3">
-                            <label>DROP OFF LOCATION</label>
-                            <input type="text" name="drop_off" class="form-control">
+                    </div>
+
+                    <div class="container padd">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label>REASON FOR HIRE</label>
+                                <input type="text" name="reason" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label>IS IT A SURPRISE?</label>
+                                <select type="text" name="ans" class="form-control">
+                                    <option value="">--SELECT--</option>
+                                    <option value="YES">YES</option>
+                                    <option value="NO">NO</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label>ARE YOU LOOKING TO BOOK TODAY?</label>
+                                <select type="text" name="answer" class="form-control">
+                                    <option value="">--SELECT--</option>
+                                    <option value="YES">YES</option>
+                                    <option value="NO">NO</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label>SINGLE OR RETURN?</label>
+                                <select type="text" name="return" class="form-control">
+                                    <option value="">--SELECT--</option>
+                                    <option value="SINGLE">SINGLE</option>
+                                    <option value="RETURN">RETURN</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <label>ESTIMATED PICK UP TIME</label>
-                            <input type="time" name="pick_up" class="form-control">
+
+                    <div class="container padd">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>ESTIMATED PICK UP TIME</label>
+                                <input type="time" name="ptime" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label>ESTIMATED DROP OFF TIME</label>
+                                <input type="time" name="dtime" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label>ESTIMATED RETURN TIME</label>
+                                <input type="time" name="rtime" class="form-control">
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <label>ESTIMATED DROP OFF TIME</label>
-                            <input type="time" name="return" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <label>ESTIMATED RETURN TIME</label>
-                            <input type="time" name="return" class="form-control">
+    
+                        
+                    </div>
+
+                    <div class="container padd">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>NUMBER OF PICK UPS</label>
+                                <select type="text" name="pick_ups" class="form-control">
+                                    <center>   
+                                    <option value="">--SELECT--</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    </center>
+                                </select>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label>NUMBER OF DROP OFFS</label>
+                                <select type="txt" name="drop_offs" class="form-control">
+                                    <center>
+                                    <option value="">--SELECT--</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    </center>
+                                </select>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label>NUMBER OF PICK UPS</label>
-                            <select type="text" name="pick_ups" class="form-control">
-                                <center>   
-                                <option value="">--SELECT--</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                </center>
-                            </select>
-                            </select>
+                    
+                    <div class="container padd"> 
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <h5>VEHICLE TYPE</h5>
+                                <p>PLEASE SELECT THE TYPE OF VEHICLE YOU NEED BELOW.   </p>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-check">
+                                            <label class="form-check-label active">
+                                              <input type="checkbox" name="car" class="validation-lenient" id="checkbox1" value="LIMO">LIMO
+                                            </label>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check">
+                                            <label class="form-check-label active">
+                                              <input type="checkbox" name="car" class="validation-lenient" id="checkbox2" value="SPORTS CAR">SPORTS CAR
+                                            </label>
+                                          </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            <div class="col-md-3"></div>
                         </div>
-                        <div class="col-md-6">
-                            <label>NUMBER OF DROP OFFS</label>
-                            <select type="txt" name="drop_offs" class="form-control">
-                                <center>
-                                <option value="">--SELECT--</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                </center>
-                            </select>
+                        
+                    </div>
+                    <div class="container padd">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>ADDITIONAL INFORMATION OR SPECIAL REQUEST</label>
+                                <textarea     
+                                type="text" name="inquiry" class="form-control   col-md-12" rows="5">
+                                </textarea>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label>ADDITIONAL INFORMATION OR SPECIAL REQUEST</label>
-                            <textarea     
-                            type="text" name="inquiry" class="form-control   col-md-12">
-                            </textarea>
+
+                    <div class="container padd">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>HOW DID YOU HEAR ABOUT US?</label>
+                                <textarea     
+                                type="text" name="feedback" class="form-control   col-md-12" rows="3">
+                                </textarea>
+                            </div>
                         </div>
-                    </div>  
-                    <div class="modal-footer">
-                        <button style="alignment: center" type="button" class="btn btn-block btn-default">SUBMIT</button>
                     </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                
+                                <button style="alignment: center" type="submit" name="submit" class="btn btn-block btn-default" id="btn">SUBMIT</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                    
                 </form>
                 
             </div>
@@ -679,12 +732,11 @@
         <div class="container">
             <div class="row">
                 <!-- Single Footer Widget Start -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 ">
                     <div class="single-footer-widget">
-                        <h2>About Us</h2>
+                        
                         <div class="widget-body">
-                            <img src="assets/img/logo.png" alt="JSOFT">
-                            <p>Lorem ipsum dolored is a sit ameted consectetur adipisicing elit. Nobis magni assumenda distinctio debitis, eum fuga fugiat error reiciendis.</p>
+                            <img src="assets/img/Exclusive Hire Logo.jpg" alt="JSOFT">
 
                             <div class="newsletter-area">
                                 <form action="index.html">
@@ -699,34 +751,34 @@
                 <!-- Single Footer Widget End -->
 
                 <!-- Single Footer Widget Start -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 ">
                     <div class="single-footer-widget">
                         <h2>Recent Posts</h2>
                         <div class="widget-body">
                             <ul class="recent-post">
                                 <li>
                                     <a href="#">
-                                        Hello Bangladesh!
-                                        <i class="fa fa-long-arrow-right"></i>
-                                    </a>
+                                       Hello Bangladesh! 
+                                       <i class="fa fa-long-arrow-right"></i>
+                                   </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Lorem ipsum dolor sit amet
-                                        <i class="fa fa-long-arrow-right"></i>
-                                    </a>
+                                      Lorem ipsum dolor sit amet
+                                       <i class="fa fa-long-arrow-right"></i>
+                                   </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Hello Bangladesh!
-                                        <i class="fa fa-long-arrow-right"></i>
-                                    </a>
+                                       Hello Bangladesh! 
+                                       <i class="fa fa-long-arrow-right"></i>
+                                   </a>
                                 </li>
                                 <li>
                                     <a href="#">
                                         consectetur adipisicing elit?
-                                        <i class="fa fa-long-arrow-right"></i>
-                                    </a>
+                                       <i class="fa fa-long-arrow-right"></i>
+                                   </a>
                                 </li>
                             </ul>
                         </div>
@@ -735,18 +787,19 @@
                 <!-- Single Footer Widget End -->
 
                 <!-- Single Footer Widget Start -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 ">
                     <div class="single-footer-widget">
                         <h2>get touch</h2>
                         <div class="widget-body">
-                            <p>Lorem ipsum doloer sited amet, consectetur adipisicing elit. nibh auguea, scelerisque sed</p>
+                            <p>you can contact us through the address below.</p>
 
                             <ul class="get-touch">
-                                <li><i class="fa fa-map-marker"></i> 800/8, Kazipara, Dhaka</li>
-                                <li><i class="fa fa-mobile"></i> +880 01 86 25 72 43</li>
-                                <li><i class="fa fa-envelope"></i> kazukamdu83@gmail.com</li>
+                                <li><i class="fa fa-map-marker"></i> UK, LONDON</li>
+                                <li><i class="fa fa-mobile"></i> TEL: 0203 011 5099</li>
+                                <li><i class="fa fa-phone"></i> Mobile: 07943 144 777</li>
+                                <li><i class="fa fa-envelope"></i> anand@limohire-sportcarhire.co.uk</li>
+                                <li><i class="fa fa-chrome"></i> anand@limohire-sportcarhire.co.uk</li>
                             </ul>
-                            <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Show Location</a>
                         </div>
                     </div>
                 </div>
@@ -762,8 +815,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                 </div>
             </div>
         </div>
@@ -808,6 +861,31 @@
 
 <!--=== Mian Js ===-->
 <script src="assets/js/main.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('#checkbox1').click(function() {
+    var checkedBox = $(this).attr("checked");
+        if (checkedBox === true) {
+            $("#checkbox2").attr('checked', false);
+        } else {
+            $("#checkbox2").removeAttr('checked');                    
+        }
+    });
+});
+
+$(document).ready(function(){
+    $('#checkbox2').click(function() {
+    var checkedBox = $(this).attr("checked");
+        if (checkedBox === true) {
+            $("#checkbox1").attr('checked', false);                     
+        } else {
+            $("#checkbox1").removeAttr('checked');                       
+        }
+    });
+});
+
+</script>
 
 </body>
 
