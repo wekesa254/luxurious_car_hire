@@ -101,13 +101,17 @@
 	font-size: 15px;
 	font-weight: 300;
 	margin-bottom: 80px;
+
 }
 
 .section-title h2 {
 	margin-bottom: 10px;
 	position: relative;
 	text-transform: uppercase;
-	color: #000000;
+	color: #f9f9f9;
+}
+.section-title h3:hover{
+	color: #e0b700;
 }
 
 .section-title p {
@@ -140,9 +144,13 @@
 	width: 50px;
 }
 
-.overlay .section-title h2,
+.overlay .section-title h1, h2,
 .overlay .section-title p {
 	color: #fff;
+}
+.overlay .section-title h1:hover{
+	color: #e0b700;
+	cursor: pointer;
 }
 
 .overlay .section-title .title-line::after,
@@ -1325,12 +1333,12 @@ a.slicknav_btn {
 	padding: 60px 0;
 }
 
-.footer-widget-area h2,
+.footer-widget-area h2,h3,
 .footer-widget-area {
 	color: #fff;
 }
 
-.singlefooter-widget h2 {
+.singlefooter-widget h2,h3 {
 	border-bottom: 1px dashed #ffd000;
 	display: inline-block;
 	font-size: 25px;
@@ -3308,16 +3316,6 @@ body,
 	height: 150px;
 	width: 100;
 }
-.col-lg-3 col-md-4 col-6, a{
-	
-	color: palevioletred;
-	text-align: center;
-	
-}
-.col-lg-3 col-md-4 col-6, a:hover{
-	color: yellow;
-	cursor: alias;
-}
 .button{
 	background: black;
     color: white;
@@ -3335,6 +3333,7 @@ body,
 }
 .contact_form{
 	padding: 30px;
+	background: #000000;
 }
 #home-slider-area{
 	background: #000;
@@ -3343,10 +3342,21 @@ body,
 	padding: 9px;
 }
 .btn{
-			alignment: center;
-			background: #e0b700;
-			color: white;
-			font-weight: bold;
+	text-align: center;
+	background: #e0b700;
+	font-weight: bold;
+	margin-bottom: 33px;
+}
+.btn a{
+	color: #000;
+	font-size: 26px;
+}
+.btn:hover {
+	background-color: #117a8b;
+	color:  #e0b700;
+}
+.btn a:hover{
+	color: #e0b700;
 }
 .padd{
 	padding: 15px;
@@ -3358,22 +3368,41 @@ body,
 .col-lg-6, .form-group{
 	padding: 12px;
 }
-#button{
-	background: #000000;
-	color: #ffffff;
-	border-radius: 100px;
-}
-#btn{
-	background: yellow;
-	color: #000;
-	font-weight: bold;
-	border-radius: 100px;
-}
-#btn:hover{
-	background: #0e1ede;
-	color: yellow;
-	cursor: pointer;
-}
 .text{
 	color: red;
 	font-size: 15px;
+}
+#jumbotron, p{
+	padding: 10px !important;
+}
+#row{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: url(assets/images/fire-engine-limo-1.jpg);
+}
+#row .card-body{
+	background: gray;
+	color: #fff;
+
+}
+#top .section-title{
+	background: #000000;
+	color: #ffffff;
+}
+#tron{
+	padding-top: 20px !important;
+}
+.jumbotron h3{
+	color: #000;
+	font-weight: bold;
+	position: relative;
+}
+.fa-facebook-square,.fa-instagram,.fa-linkedin-square{
+	font-size: 50px;
+}
+.fa-instagram{
+	color: red;
+}
+.fa-facebook-square,.fa-linkedin-square{
+	color: blue;
+}

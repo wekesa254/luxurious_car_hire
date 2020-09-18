@@ -33,28 +33,31 @@
     <!--=== Responsive CSS ===-->
     <link href="assets/css/responsive.css" rel="stylesheet">
 
-    <style>
-        .form-group, h1,h2,h3,h4,h5,hr,label{
-            color: white;
-            align-content: center;
-            text-align: center;
-            padding: 5px;
-            
-        }
-        .section-title p{
-            text-align: center;
-            font-size: 20px;
-            font-style: italic;
-        }
-        p{
-            font-size: 18px;
+    .form-group, h1,h2,h3,h4,h5,hr,label{
+        color: white;
+        align-content: center;
+        text-align: center;
+        padding: 5px;
         
-        }
-        h1,h2,h3,h4,h5{
-            color: black;
-            text-align: center;
-        }
-    </style>
+    }
+    .section-title p{
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        
+    }
+    .text-center h2{
+        color: #000000;
+    }
+    p{
+        font-size: 18px;
+    
+    }
+    h1,h2,h3,h4,h5{
+        color: black;
+        text-align: center;
+    }
+</style>
 
 
     <!--[if lt IE 9]>
@@ -152,6 +155,7 @@
                                 </li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="contact.html">Contact</a></li>
+                                <li><a href="faqs.html">faq's</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -170,9 +174,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="slideshowcontent">
-                           <center><h1>LUXURY CAR HIRE TODAY!</h1>
+                           <h1>LUXURY CAR HIRE TODAY!</h1>
                             <p>Enjoy your travel in UK at your comfort. <br>We are here at your cost.<br/> Is it a Wedding Ceremony, adventure or party?
-                                Luxury car rental is available at your service.<br/></p></center>
+                                Luxury car rental is available at your service.<br/></p>
                         </div>
                     </div>
                 </div>
@@ -184,9 +188,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="slideshowcontent">
-                            <center><h1>CHEAP SPORTS CAR HIRE</h1>
+                            <h1>CHEAP SPORTS CAR HIRE</h1>
                             <p>You need a luxurious ride in UK and you are stranded? <br/>worryless beacause Luxurious Car Hire is here 
-                                for you.<br/> Limo Cars are available for your service.</p></center>
+                                for you.<br/> Limo Cars are available for your service.</p>
                         </div>
                     </div>
                 </div>
@@ -198,11 +202,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="slideshowcontent">
-                            <center><h1>ENJOY YOUR JOURNEY</h1>
+                            <h1>ENJOY YOUR JOURNEY</h1>
                                 <p>You need a luxurious ride in UK and you are stranded? <br/>worryless beacause Luxurious Car Hire is here 
                                     for you.<br/> Limo Cars are available for your service.<br/>
                                 Let travel London, Birmingham, Manchester and all over the County</p>
-                            </center>
+                            
                         </div>
                     </div>
                 </div>
@@ -217,7 +221,7 @@
             <div class="col-md-12">
                 <h2>GET A QUICK QUOTE</h2>
                     <hr>
-                <form action="quick_quote.php" method="POST" class="form-group contact_form" style="background-color: black;">
+                <form action="quick_quote.php" method="POST" class="form-group contact_form">
                     
                     
                     <div class="container padd">
@@ -300,7 +304,7 @@
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
                                 
-                                <button style="alignment: center" class="btn btn-block btn-default" name="submit" id="btn">SUBMIT</button>
+                                <button  class="btn btn-block btn-default" name="submit" id="btn">SUBMIT</button>
                             </div>
                         </div>
                         <div class="col-md-3"></div>
@@ -313,7 +317,7 @@
         </div>
 
     </div>
-</section>
+
 
     <!--== What We Do Area Start ==-->
     <section id="what-do-area" class="section-padding">
@@ -321,12 +325,11 @@
             <div class="row">
                 <!-- Section Title Start -->
                 <div class="col-lg-12">
-                        <div class="jumbotron">
+                        <div class="jumbotron" id="jumbotron">
                             <div class="section-title  text-center">
-                                <h2 style="color: black;">WHAT WE DO</h2>
+                                <h2>WHAT WE DO</h2>
                         <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>We hire varriety of <b>presitigious cars</b> to our customers. our store includes <b>Luxury cars for Wedding</b> ceremony, 
-                            party and any event you wish to attend including touring.</p>
+                        <p>Welcome to hirelimo-london.co.uk, where we pride ourselves on providing you with the best of the best when it comes to <a>limo hire in London</a> services. Whether you are looking for a specific limo hire or you just want to see what we’re all about, we’re glad you came. Take a minute to look around our site, check out our limousine hire, and figure out exactly what you are looking for when it comes to <a>luxurious car hire in London</a>. Make sure that you take the time to check out our fleet and events for interesting tips, articles, and information about limo hire London.</p>
                             </div>
                         </div>
                 </div>
@@ -334,6 +337,9 @@
             </div>
 
             <div class="row">
+                <div class="col-md-6">
+                    <a><img class="img" src="assets/images/limo-hire-bradford-2.jpg" alt="Wedding Car"></a>
+                </div>
                 <div class="col-md-6">
                     
                         <h3>WEDDING SUPER CAR HIRE IN LODON</h3>
@@ -345,13 +351,10 @@
                         considerations have catered.    
                     </P>
                 </div>
-                <div class="col-md-6">
-                    <a><img class="img" src="assets/images/limo-hire-bradford-2.jpg"></a>
-                </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <a><img class="img"src="assets/images/Ferrari-Laferrari-4922aeb563604aa9b2523755aee81727.jpg"></a>
+                    <a><img class="img" src="assets/images/Ferrari-Laferrari-4922aeb563604aa9b2523755aee81727.jpg" alt="red sports car"></a>
                 </div>
                 <div class="col-md-6">
                     
@@ -364,24 +367,20 @@
                 </div>
             </div>
             <div class="row">
-                
                 <div class="col-md-6">
-                    
-                    
+                    <a><img class="img" src="assets/images/fire-engine-limo-1.jpg" alt="fire fighter machine"></a>
+                </div>
+                <div class="col-md-6">
                         <h3>FIRE FIGHTER ENGINES</h3>
-                        
                        <P> Fire outbreak may cause a serious destruction even rendering others lifeless. Why wait until when it is too late.
                            You have no reason nor chance regret. Limo fire engine are available at your cost to our centers in UK. We will quickly
                            respond to your situation as fast as you reach unto us.     
                     </P>
                 </div>
-                <div class="col-md-6">
-                    <a><img class="img" src="assets\images\fire-engine-limo-1.jpg"></a>
-                </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <a><img class="img"src="assets/images/Ferrari-Laferrari-4922aeb563604aa9b2523755aee81727.jpg"></a>
+                    <a><img class="img" src="assets/images/Ferrari-Laferrari-4922aeb563604aa9b2523755aee81727.jpg" alt="sports car"></a>
                 </div>
                 <div class="col-md-6">
                     
@@ -393,93 +392,94 @@
                         Or you can directly contact us via the address given.
                     </P>
                 </div>
-            </div>
-            
-                <!--== Partner Area Start ==-->
+            </div>        
+        </div>
+            <!--== Partner Area Start ==-->
     
-    <!--== Partner Area Start ==-->
-    <div id="partner-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="partner-content-wrap">
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/images/chrysler-300-4.png" alt="JSOFT">
+        <!--== Partner Area Start ==-->
+        <div id="partner-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="partner-content-wrap">
+                            <!-- Single Partner Start -->
+                            <div class="single-partner">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <img src="assets/images/chrysler-300-4.png" alt="Perfect Chrysler for Hire">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Single Partner End -->
+                            <!-- Single Partner End -->
 
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/images/excalibur-limo-2.png" alt="JSOFT">
+                            <!-- Single Partner Start -->
+                            <div class="single-partner">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <img src="assets/images/excalibur-limo-2.png" alt="Limo for Hire">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Single Partner End -->
+                            <!-- Single Partner End -->
 
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/images/Ferrari-Laferrari-4922aeb563604aa9b2523755aee81727.jpg" alt="JSOFT">
+                            <!-- Single Partner Start -->
+                            <div class="single-partner">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <img src="assets/images/Ferrari-Laferrari-4922aeb563604aa9b2523755aee81727.jpg" alt="Cheap Sports Car for Hire">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Single Partner End -->
+                            <!-- Single Partner End -->
 
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/images/fire-engine-limo-1.jpg" alt="JSOFT">
+                            <!-- Single Partner Start -->
+                            <div class="single-partner">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <img src="assets/images/fire-engine-limo-1.jpg" alt="Limo Fire Engine for Hire">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Single Partner End -->
+                            <!-- Single Partner End -->
 
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/images/limo-hire-bradford-2.jpg" alt="JSOFT">
+                            <!-- Single Partner Start -->
+                            <div class="single-partner">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <img src="assets/images/limo-hire-bradford-2.jpg" alt="Brandford Executive Car for Hire">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Single Partner End -->
+                            <!-- Single Partner End -->
 
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/images/Pink_Excalibur.jpg" alt="JSOFT">
+                            <!-- Single Partner Start -->
+                            <div class="single-partner">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <img src="assets/images/Pink_Excalibur.jpg" alt="Pink Excalibur Limo Car forHire">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Single Partner End -->
+                            <!-- Single Partner End -->
 
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/images/AUDI_Q7_LIMO._2__252_578_15400.png alt="JSOFT">
+                            <!-- Single Partner Start -->
+                            <div class="single-partner">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <img src="assets/images/AUDI_Q7_LIMO._2__252_578_15400.png" alt="Audi for hire" >
+                                    </div>
                                 </div>
                             </div>
+                            <!-- Single Partner End -->
                         </div>
-                        <!-- Single Partner End -->
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--== Partner Area End ==-->
+    </section>
+        <!--== Partner Area End ==-->
 
-     <!--== Why Coose Us Start ==-->
+        <!--== Why Coose Us Start ==-->
      <section id="why-choose-area" class="section-padding">
         <div class="container">
             <div class="row">
@@ -666,10 +666,6 @@
                 </div>
                 <!-- Section Title End -->
             </div>
-
-                
-            </div>
-
             <div class="row">
                 <div class="col-lg-12">
                     <div class="team-content">
@@ -699,7 +695,7 @@
                                                 <div class="display-table">
                                                     <div class="display-table-cell">
                                                         <div class="ourcar-pic">
-                                                            <img class="img" src="assets/images/LIMO/AUDI/AUDI_Q7_LIMO._2__252_578_15400 (1).png" alt="JSOFT">
+                                                            <img class="img" src="assets/images/LIMO/AUDI/AUDI_Q7_LIMO_252_578_15401.png" alt="Black Limo">
                                                             <a  href="limo-cars.html"><span><label class="col-lg-12 btn-1">MORE</label></span></a>
                                                         </div>
                                                     </div>
@@ -717,7 +713,7 @@
                                                     <div class="display-table">
                                                         <div class="display-table-cell">
                                                             <div class="ourcar-pic">
-                                                                <img class="img" src="assets/images/excalibur-limo-2.png" alt="JSOFT">
+                                                                <img class="img" src="assets/images/Ferrari-Laferrari-4922aeb563604aa9b2523755aee81727.jpg" alt="Limo Excalibur">
                                                                 <a  href="sports_cars"><span><label class="col-lg-12 btn-1">MORE</label></span></a>
                                                             </div>
                                                         </div>
@@ -775,9 +771,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-
-                                                
-                                                </div>
                                             </div>
                                         </div>
                                         <!-- Single OurCars End -->
@@ -815,7 +808,7 @@
                         <p>I just realized that at any cost I can get a cool, quick and comfortable ride with your cheap sports car.</p>
                         <h3>Isabella Smith</h3>
                         <div class="client-logo">
-                            <img src="assets/img/client/client-pic-1.jpg" alt="JSOFT">
+                            <img src="assets/img/client/client-pic-1.jpg" alt="Client-1">
                         </div>
                     </div>
                     <!--== Single Testimoial End ==-->
@@ -825,7 +818,7 @@
                         <p>Thank you so much for your service. My wedding was so colourful.</p>
                         <h3>Daniella</h3>
                         <div class="client-logo">
-                            <img src="assets/img/client/client-pic-3.jpg" alt="JSOFT">
+                            <img src="assets/img/client/client-pic-3.jpg" alt="Client-3">
                         </div>
                     </div>
                     <!--== Single Testimoial End ==-->
@@ -835,7 +828,7 @@
                         <p>Hi guys, I hired a presitigious sports car, Ferrari and I reaaly enjoyed the service./p>
                         <h3>Enrique Di Santos</h3>
                         <div class="client-logo">
-                            <img src="assets/img/client/client-pic-2.jpg" alt="JSOFT">
+                            <img src="assets/img/client/client-pic-2.jpg" alt="Client-3">
                         </div>
                     </div>
                     <!--== Single Testimoial End ==-->
@@ -857,7 +850,7 @@
                         <div class="single-footer-widget">
                             
                             <div class="widget-body">
-                                <img src="assets/img/Exclusive Hire Logo.jpg" alt="JSOFT">
+                                <a href="index.html"><img src="assets/img/Exclusive-Hire-Logo.jpg" alt="Exclussive-Hire"></a>
 
                                 <div class="newsletter-area">
                                     <form action="index.html">
@@ -1005,19 +998,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
    
 -->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-<head>
-<title>untitled</title>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<meta name="generator" content="Geany 1.36" />
-</head>
 
-<body>
 
-</body>
 <script>
 
     $(document).ready(function(){
@@ -1041,10 +1024,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             }
         });
     });
-
 </script>
-</html>
-
 </body>
 
 </html>

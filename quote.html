@@ -51,7 +51,7 @@
     <![endif]-->
 </head>
 
-<body class="loader-active" bgcolor="black">
+<body class="loader-active">
 
 <!--== Preloader Area Start ==-->
 <div class="preloader">
@@ -136,6 +136,7 @@
                             </li>
                             <li><a href="about.html">ABOUT</a></li>
                             <li><a href="contact.html">CONTACT</a></li>
+                            <li><a href="faqs.html">faq's</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -154,9 +155,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="slideshowcontent">
-                        <center><h1>LUXURY CAR HIRE TODAY!</h1>
-                            <p>Enjoy your travel in UK at your comfort. <br>We are here at your cost.<br/> Is it a Wedding Ceremony, adventure or party?
-                                Luxury car rental is available at your service.<br/></p></center>
+                        <h1  class="text-center">LUXURY CAR HIRE TODAY!</h1>
+                            <p class="text-center">Enjoy your travel in UK at your comfort. <br>We are here at your cost.<br/> Is it a Wedding Ceremony, adventure or party?
+                                Luxury car rental is available at your service.<br/></p>
                     </div>
                 </div>
             </div>
@@ -168,9 +169,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="slideshowcontent">
-                        <center><h1>CHEAP SPORTS CAR HIRE</h1>
-                            <p>You need a luxurious ride in UK and you are stranded? <br/>worryless beacause Luxurious Car Hire is here
-                                for you.<br/> Limo Cars are available for your service.</p></center>
+                        <h1>CHEAP SPORTS CAR HIRE</h1>
+                            <p class="text-center">You need a luxurious ride in UK and you are stranded? <br/>worryless beacause Luxurious Car Hire is here
+                                for you.<br/> Limo Cars are available for your service.</p>
                     </div>
                 </div>
             </div>
@@ -182,11 +183,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="slideshowcontent">
-                        <center><h1>ENJOY YOUR JOURNEY</h1>
-                            <p>You need a luxurious ride in UK and you are stranded? <br/>worryless beacause Luxurious Car Hire is here
+                        <h1 class="text-center">ENJOY YOUR JOURNEY</h1>
+                            <p class="text-center">You need a luxurious ride in UK and you are stranded? <br/>worryless beacause Luxurious Car Hire is here
                                 for you.<br/> Limo Cars are available for your service.<br/>
                                 Let travel London, Birmingham, Manchester and all over the County</p>
-                        </center>
                     </div>
                 </div>
             </div>
@@ -201,7 +201,7 @@
             <div class="col-md-12">
                 <form method="POST" action="get_quote.php" class="form-group contact_form" style="background-color: black;">
 
-                    <h2 ALIGN="center">CONTACT INFORMATION</h2><br/><br/>
+                    <h2 class="text-center">CONTACT INFORMATION</h2><br/><br/>
                     <div class="container padd">
                         <div class="row">
                             <div class="col-md-4">
@@ -262,15 +262,17 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="row">
-                                    <div class="col-md-6"> <label><h4 align="center">PREFERRED CONTACT</h4></label>
-                                        <select type="text" name="pcontact" class="form-control">
+                                    <div class="col-md-6">
+                                        <h4 class="text-center m-2">PREFERRED CONTACT</h4>
+                                        <select name="pcontact" class="form-control">
                                             <option value="MOBILE PHONE">MOBILE PHONE</option>
                                             <option value="HOME PHONE">HOME PHONE</option>
                                             <option value="WORK PHONE">WORK PHONE</option>
                                         </select>
                                     </div>
-                                    <div class="col-md-6"> <label><h4 align="center">BEST CONTACT TIME</h4></label>
-                                        <select type="text" name="contact_time" class="form-control">
+                                    <div class="col-md-6"> 
+                                        <h4 class="text-center m-2">BEST CONTACT TIME</h4>
+                                        <select name="contact_time" class="form-control">
                                             
                                             <option value="BTWN 09:00-1700">BTWN 09:00-17:00</option>
                                             <option value="IMMEDIATELY">IMMEDIATELY</option>
@@ -284,7 +286,7 @@
                     </div>
                     
                     <div class="container padd">
-                        <h2 align="center">BOOKING INFORMATION</h2>
+                        <h2 class="text-center m-2">BOOKING INFORMATION</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <label>HIRE DATE</label>
@@ -322,7 +324,7 @@
                             </div>
                             <div class="col-md-3">
                                 <label>ARE YOU LOOKING TO BOOK TODAY?</label>
-                                <select type="text" name="answer" class="form-control">
+                                <select name="answer" class="form-control">
                                     <option value="">--SELECT--</option>
                                     <option value="YES">YES</option>
                                     <option value="NO">NO</option>
@@ -330,7 +332,7 @@
                             </div>
                             <div class="col-md-3">
                                 <label>SINGLE OR RETURN?</label>
-                                <select type="text" name="return" class="form-control">
+                                <select name="return" class="form-control">
                                     <option value="">--SELECT--</option>
                                     <option value="SINGLE">SINGLE</option>
                                     <option value="RETURN">RETURN</option>
@@ -362,8 +364,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <label>NUMBER OF PICK UPS</label>
-                                <select type="text" name="pick_ups" class="form-control">
-                                    <center>   
+                                <select name="pick_ups" class="form-control">  
                                     <option value="">--SELECT--</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -375,14 +376,11 @@
                                     <option value="8">8</option>
                                     <option value="9">9</option>
                                     <option value="10">10</option>
-                                    </center>
-                                </select>
                                 </select>
                             </div>
                             <div class="col-md-6">
                                 <label>NUMBER OF DROP OFFS</label>
-                                <select type="txt" name="drop_offs" class="form-control">
-                                    <center>
+                                <select  name="drop_offs" class="form-control">
                                     <option value="">--SELECT--</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -394,7 +392,6 @@
                                     <option value="8">8</option>
                                     <option value="9">9</option>
                                     <option value="10">10</option>
-                                    </center>
                                 </select>
                             </div>
                         </div>
@@ -432,8 +429,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <label>ADDITIONAL INFORMATION OR SPECIAL REQUEST</label>
-                                <textarea     
-                                type="text" name="inquiry" class="form-control   col-md-12" rows="5">
+                                <textarea name="inquiry" class="form-control   col-md-12" rows="5">
                                 </textarea>
                             </div>
                         </div>
@@ -443,8 +439,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <label>HOW DID YOU HEAR ABOUT US?</label>
-                                <textarea     
-                                type="text" name="feedback" class="form-control   col-md-12" rows="3">
+                                <textarea name="feedback" class="form-control   col-md-12" rows="3">
                                 </textarea>
                             </div>
                         </div>
@@ -456,7 +451,7 @@
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
                                 
-                                <button style="alignment: center" type="submit" name="submit" class="btn btn-block btn-default" id="btn">SUBMIT</button>
+                                <button type="submit" name="submit" class="btn btn-block btn-default text-center" id="btn">SUBMIT</button>
                             </div>
                         </div>
                         <div class="col-md-3"></div>
@@ -538,7 +533,7 @@
                     <!-- Section Title Start -->
                     <div class="col-lg-12">
                         <div class="section-title  text-center">
-                            <h2>Our cars</h2>
+                            <h2 class="text-dark">Our cars</h2>
                             <span class="title-line"><i class="fa fa-car"></i></span>
                             <p>Find the model that fits your event.</p>
                         </div>
@@ -546,128 +541,72 @@
                     <!-- Section Title End -->
                 </div>
 
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="team-content">
-                        <div class="row">
-                            <!-- OurCars Tab Menu start -->
-                            <div class="col-lg-5">
-                                <div class="ourcar-tab-menu">
-                                    <ul class="nav nav-tabs" id="ourcartabmenu" role="tablist">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" id="ourcar_item_1" data-toggle="tab" href="#ourcar_1" role="tab" aria-selected="true">LIMOUSINES</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="ourcar_item_2" data-toggle="tab" href="#ourcar_2" role="tab" aria-selected="true">SPORTS CARS</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- OurCars Tab Menu End -->
-
-                            <!-- OurCars Tab Content start -->
-                            <div class="col-lg-7">
-                                <div class="tab-content" id="ourcartabcontent">
-                                    <!-- Single OurCars  start -->
-                                    <div class="tab-pane fade show active" id="ourcar_1" role="tabpanel" aria-labelledby="ourcar_item_1">
-                                        <div class="row">
-                                            <div class="col-lg-offset-1 text-center">
-                                                <div class="display-table">
-                                                    <div class="display-table-cell">
-                                                        <div class="ourcar-pic">
-                                                            <img class="img" src="assets/images/LIMO/AUDI/AUDI_Q7_LIMO._2__252_578_15400 (1).png" alt="JSOFT">
-                                                            <a  href="limo-cars.html"><span><label class="col-lg-12 btn-1">MORE</label></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <!-- Single OurCars End -->
-
-                                    <!-- Single OurCars  start -->
-                                    <div class="tab-pane fade" id="ourcar_2" role="tabpanel" aria-labelledby="ourcar_item_2">
-                                        <div class="row">
-                                            <div class="col-lg-offset-1 text-center">
-                                                <div class="display-table">
-                                                    <div class="display-table-cell">
-                                                        <div class="ourcar-pic">
-                                                            <img class="img" src="assets/images/excalibur-limo-2.png" alt="JSOFT">
-                                                            <a  href="sports_cars"><span><label class="col-lg-12 btn-1">MORE</label></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <!-- Single OurCars End -->
-
-                                    <!-- Single OurCars  start -->
-                                    <div class="tab-pane fade" id="ourcar_3" role="tabpanel" aria-labelledby="ourcar_item_3">
-                                        <div class="row">
-                                            <div class="col-lg-offset-1 text-center">
-                                                <div class="display-table">
-                                                    <div class="display-table-cell">
-                                                        <div class="ourcar-pic">
-                                                            <img class="img" src="assets/images/chrysler-300-4.png" alt="JSOFT">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <!-- Single OurCars End -->
-
-                                    <!-- Single OurCars  start -->
-                                    <div class="tab-pane fade" id="ourcar_4" role="tabpanel" aria-labelledby="ourcar_item_4">
-                                        <div class="row">
-                                            <div class="col-lg-offset-1 text-center">
-                                                <div class="display-table">
-                                                    <div class="display-table-cell">
-                                                        <div class="ourcar-pic">
-                                                            <img class="img" src="assets/images/Ferrari-Laferrari-4922aeb563604aa9b2523755aee81727.jpg" alt="JSOFT">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                    <!-- Single OurCars End -->
-
-                                    <!-- Single OurCars  start -->
-                                    <div class="tab-pane fade" id="ourcar_5" role="tabpanel" aria-labelledby="ourcar_item_5">
-                                        <div class="row">
-                                            <div class="col-lg-offset-1 text-center">
-                                                <div class="display-table">
-                                                    <div class="display-table-cell">
-                                                        <div class="ourcar-pic">
-                                                            <img class="img" src="assets/images/AUDI_Q7_LIMO._2__252_578_15400.png" alt="JSOFT">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="team-content">
+                            <div class="row">
+                                <!-- OurCars Tab Menu start -->
+                                <div class="col-lg-5">
+                                    <div class="ourcar-tab-menu">
+                                        <ul class="nav nav-tabs" id="ourcartabmenu" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="ourcar_item_1" data-toggle="tab" href="#ourcar_1" role="tab" aria-selected="true">LIMOUSINES</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="ourcar_item_2" data-toggle="tab" href="#ourcar_2" role="tab" aria-selected="true">SPORTS CARS</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <!-- Single OurCars End -->
+                                <!-- OurCars Tab Menu End -->
+
+                                <!-- OurCars Tab Content start -->
+                                <div class="col-lg-7">
+                                    <div class="tab-content" id="ourcartabcontent">
+                                        <!-- Single OurCars  start -->
+                                        <div class="tab-pane fade show active" id="ourcar_1" role="tabpanel" aria-labelledby="ourcar_item_1">
+                                            <div class="row">
+                                                <div class="col-lg-offset-1 text-center">
+                                                    <div class="display-table">
+                                                        <div class="display-table-cell">
+                                                            <div class="ourcar-pic">
+                                                                <img class="img" src="assets/images/LIMO/AUDI/AUDI_Q7_LIMO._2__252_578_15400 (1).png" alt="JSOFT">
+                                                                <span><label class="col-lg-12 btn-1"><a  href="limo-cars.html">MORE</a></label></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!-- Single OurCars End -->
+
+                                        <!-- Single OurCars  start -->
+                                        <div class="tab-pane fade" id="ourcar_2" role="tabpanel" aria-labelledby="ourcar_item_2">
+                                            <div class="row">
+                                                <div class="col-lg-offset-1 text-center">
+                                                    <div class="display-table">
+                                                        <div class="display-table-cell">
+                                                            <div class="ourcar-pic">
+                                                                <img class="img" src="assets/images/excalibur-limo-2.png" alt="JSOFT">
+                                                                <span><label class="col-lg-12 btn-1"><a  href="sports_cars">MORE</a></label></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!-- Single OurCars End -->
+                                    </div>
+                                    <!-- Single OurCars End -->
+                                </div>
                             </div>
+                            <!-- OurCars Tab Content End -->
                         </div>
-                        <!-- OurCars Tab Content End -->
                     </div>
                 </div>
-            </div>
-    </div>
-    </div>
+    
 </section>
 <!--== Our Cars Area End ==-->
 
